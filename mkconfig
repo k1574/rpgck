@@ -1,0 +1,9 @@
+CC = cc
+LD = $CC
+
+ROOT = $HOME/local
+BIN = $ROOT/bin
+
+CPPFLAGS =
+CFLAGS = $CPPFLAGS
+LDFLAGS =
