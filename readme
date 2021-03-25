@@ -1,2 +1,26 @@
 # rpgck
-rpgck - set of utils for simple RPG system.
+
+rpgck - set of utils for simple step-roll-based text RPG system.
+
+rpgck is name of the main util that lets us to know how
+sucessful the action was and how much we need to complete it.
+
+Atk value stands for some quality development level
+of the acting person: skill, strength, agility etc.
+
+Def value stands for action dificulty level:
+lock dificulty (to pick), door durability (to break through), 
+
+Roll is value betwen floats 0 and 1 which stands for
+how much you failed the action, i. e. 1 means you
+did the action perfectly and 0 that you totally
+failed it. 0 and 1 values make fail ANYONE with ANY
+skil values, it's supposed to be really rare though.
+The value injects some amount of randomness and
+shows luck of the player. You can make players
+get rolls values in some interval depending on
+their character's luck value or anything other anyways.
+
+Dmg stands for maximum possible damage per attack.
+This one value works just for rpgdmg util.
+

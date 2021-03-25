@@ -1,8 +1,7 @@
-CC = cc
+CC = tcc
 LD = $CC
 
-ROOT = $HOME/local
-BIN = $ROOT/bin
+EXE= $HOME/exe
 
 CPPFLAGS =
 CFLAGS = $CPPFLAGS

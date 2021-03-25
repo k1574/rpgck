@@ -26,7 +26,7 @@ main(int argc, char *argv[])
 		usage();
 	if(!( def=strtod(argv[2], &dc) ))
 		usage();
-	if( !(rol=strtod(argv[3], &dc)) && errno==ERANGE)
+	if( !(rol=1-strtod(argv[3], &dc)) && errno==ERANGE)
 		usage();
 
 	dif = atk / (atk+def) ;
